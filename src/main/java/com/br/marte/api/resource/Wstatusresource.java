@@ -24,12 +24,16 @@ public class Wstatusresource {
 	@GetMapping
 	public List<Wstatus> findAll(){
 		
+		System.out.println("Entrei em findAll ");
+		
 		return ws.findAll();
 	}
 	
 	
 	@PostMapping
 	public Wstatus statusAdd(@Valid @RequestBody Wstatus status) {
+		
+		System.out.println("Entrei em status add ");
 		
 		return ws.save(status);
 	}
