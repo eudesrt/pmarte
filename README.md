@@ -1,2 +1,2 @@
 # pmarte
-Projeto estudo heroku
+Projeto estudo heroku banco postgres
